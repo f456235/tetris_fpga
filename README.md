@@ -84,6 +84,14 @@ This project implements a Tetris Battle game on FPGA, originally aimed at suppor
 ---
 
 ## 📷 Screenshots
-(Add images or GIFs here if you have output screenshots from the VGA)
+### game start
+<img width="515" height="612" alt="image" src="https://github.com/user-attachments/assets/0e14c4b8-e55b-4264-aa58-f4ecbf91e2a1" />
+
+### VGA ouput in game
+<img width="313" height="413" alt="image" src="https://github.com/user-attachments/assets/37c51dc2-915c-4557-bab1-084120e20679" />
+
+### game loss
+<img width="271" height="346" alt="image" src="https://github.com/user-attachments/assets/39b74739-931c-4eeb-8156-be24fbd30176" />
+
 
 ---
