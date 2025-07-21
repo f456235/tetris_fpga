@@ -1,4 +1,4 @@
-# 🎮 Tetris Battle on FPGA (雙人俄羅斯方塊對戰)
+# 🎮 Tetris Battle on FPGA 
 
 Authors: 張書睿 (110062109), 蔡承翰 (110062111)  
 Course Final Project – Digital System Design using FPGA
