@@ -1,0 +1,146 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jan 11 20:43:41 2023
+| Host         : LAPTOP-7J576QMB running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    68 |
+|    Minimum number of control sets                        |    68 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   129 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    68 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     8 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     4 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    45 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              19 |           10 |
+| No           | No                    | Yes                    |              64 |           21 |
+| No           | Yes                   | No                     |              29 |           14 |
+| Yes          | No                    | No                     |               5 |            1 |
+| Yes          | No                    | Yes                    |             301 |           97 |
+| Yes          | Yes                   | No                     |            4261 |         1625 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+------------------------------------------------------------+-------------------------------+------------------+----------------+--------------+
+|     Clock Signal     |                        Enable Signal                       |        Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+------------------------------------------------------------+-------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG       | keyboard/key_de/inst/inst/lock_status0                     | rst_IBUF                      |                1 |              2 |         2.00 |
+|  clk_wiz_0_inst/Q[0] |                                                            | rst_IBUF                      |                2 |              2 |         1.00 |
+|  clk_IBUF_BUFG       | tetris/stacking_array[5][9][3]_i_1_n_0                     | rst_IBUF                      |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG       | tetris/hold[3]_i_1_n_0                                     | rst_IBUF                      |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG       | tetris/posx[3]_i_1_n_0                                     | rst_IBUF                      |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG       | keyboard/key_de/inst/inst/Ps2Interface_i/bits_count        | rst_IBUF                      |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG       | tetris/nbg/FSM_sequential_state_reg[3]_rep__3_0[0]         | rst_IBUF                      |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG       | tetris/ep1[4]_i_1_n_0                                      | rst_IBUF                      |                3 |              5 |         1.67 |
+|  clk_IBUF_BUFG       | tetris/posy[4]_i_1_n_0                                     | rst_IBUF                      |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/nbg/lfsr/DFF[7]_i_1_n_0                             |                               |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG       |                                                            | tetris/nbg/appear[6]_i_1_n_0  |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG       | keyboard/key_de/inst/inst/Ps2Interface_i/rx_finish         | rst_IBUF                      |                1 |              8 |         8.00 |
+|  clk_IBUF_BUFG       | keyboard/key_de/inst/inst/Ps2Interface_i/rx_valid          | rst_IBUF                      |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG       | tetris/prev_next_posx                                      | rst_IBUF                      |                6 |              9 |         1.50 |
+|  clk_IBUF_BUFG       | tetris/nbg/FSM_sequential_state_reg[0]                     | rst_IBUF                      |                4 |              9 |         2.25 |
+|  clk_wiz_0_inst/Q[0] | vga_inst/line_cnt                                          | vga_inst/line_cnt[9]_i_1_n_0  |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/ep2[4]_i_1_n_0                                      | rst_IBUF                      |                7 |             10 |         1.43 |
+|  clk_wiz_0_inst/Q[0] |                                                            | vga_inst/pixel_cnt[9]_i_1_n_0 |                3 |             10 |         3.33 |
+|  clk_IBUF_BUFG       | keyboard/key_de/inst/inst/Ps2Interface_i/frame[10]_i_1_n_0 | rst_IBUF                      |                2 |             11 |         5.50 |
+|  clk_IBUF_BUFG       | tetris/stacking_array[5][15][3]_i_1_n_0                    | rst_IBUF                      |                7 |             12 |         1.71 |
+|  clk_IBUF_BUFG       | tetris/stacking_array[7][11][3]_i_1_n_0                    | rst_IBUF                      |                5 |             12 |         2.40 |
+|  clk_IBUF_BUFG       | tetris/stacking_array[8][12][3]_i_1_n_0                    | rst_IBUF                      |                5 |             12 |         2.40 |
+|  clk_IBUF_BUFG       | keyboard/key_de/next_key                                   | rst_IBUF                      |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG       | tetris/stacking_array[2][9][3]_i_1_n_0                     | rst_IBUF                      |                6 |             16 |         2.67 |
+|  clk_IBUF_BUFG       | tetris/stacking_array[7][9][3]_i_1_n_0                     | rst_IBUF                      |                6 |             16 |         2.67 |
+|  clk_IBUF_BUFG       |                                                            |                               |               10 |             19 |         1.90 |
+|  clk_IBUF_BUFG       | tetris/nbg/E[0]                                            | rst_IBUF                      |               13 |             24 |         1.85 |
+|  clk_IBUF_BUFG       | tetris/max_falling_time[26]_i_1_n_0                        | rst_IBUF                      |                8 |             27 |         3.38 |
+|  clk_IBUF_BUFG       | tetris/nbg/FSM_sequential_state_reg[0]_0[0]                | rst_IBUF                      |               21 |             27 |         1.29 |
+|  clk_IBUF_BUFG       | tetris/nbg/FSM_sequential_state_reg[3]_rep__3[0]           | rst_IBUF                      |                8 |             27 |         3.38 |
+|  clk_IBUF_BUFG       | tetris/stacking_array[5][14][3]_i_1_n_0                    | rst_IBUF                      |               14 |             28 |         2.00 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[0][16][3]_i_1_n_0             | rst_IBUF                      |               16 |             40 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[0][15][3]_i_1_n_0             | rst_IBUF                      |               20 |             40 |         2.00 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[0][14][3]_i_1_n_0             | rst_IBUF                      |               13 |             40 |         3.08 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[8][12][3]_i_1_n_0             | rst_IBUF                      |               15 |             40 |         2.67 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[7][1][3]_i_1_n_0              | rst_IBUF                      |               14 |             40 |         2.86 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[7][6][3]_i_1_n_0              | rst_IBUF                      |               16 |             40 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[7][5][3]_i_1_n_0              | rst_IBUF                      |               16 |             40 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[7][3][3]_i_1_n_0              | rst_IBUF                      |               18 |             40 |         2.22 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[7][4][3]_i_1_n_0              | rst_IBUF                      |               16 |             40 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[8][2][3]_i_1_n_0              | rst_IBUF                      |               23 |             40 |         1.74 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[9][10][3]_i_1_n_0             | rst_IBUF                      |               15 |             40 |         2.67 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[9][0][3]_i_1_n_0              | rst_IBUF                      |               16 |             40 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[9][30][3]_i_1_n_0             | rst_IBUF                      |               19 |             40 |         2.11 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[9][28][3]_i_1_n_0             | rst_IBUF                      |               20 |             40 |         2.00 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[9][29][3]_i_1_n_0             | rst_IBUF                      |               19 |             40 |         2.11 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[9][31][3]_i_1_n_0             | rst_IBUF                      |               17 |             40 |         2.35 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[1][19][3]_i_1_n_0             | rst_IBUF                      |               15 |             40 |         2.67 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[1][21][3]_i_1_n_0             | rst_IBUF                      |               23 |             40 |         1.74 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[1][22][3]_i_1_n_0             | rst_IBUF                      |               15 |             40 |         2.67 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[2][23][3]_i_1_n_0             | rst_IBUF                      |               16 |             40 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[2][24][3]_i_1_n_0             | rst_IBUF                      |               17 |             40 |         2.35 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[2][25][3]_i_1_n_0             | rst_IBUF                      |               16 |             40 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[2][26][3]_i_1_n_0             | rst_IBUF                      |               14 |             40 |         2.86 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[2][27][3]_i_1_n_0             | rst_IBUF                      |               14 |             40 |         2.86 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[0][20][3]_i_1_n_0             | rst_IBUF                      |               19 |             40 |         2.11 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[2][7][3]_i_1_n_0              | rst_IBUF                      |               21 |             40 |         1.90 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[4][17][3]_i_1_n_0             | rst_IBUF                      |               19 |             40 |         2.11 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[4][18][3]_i_1_n_0             | rst_IBUF                      |               14 |             40 |         2.86 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[5][11][3]_i_1_n_0             | rst_IBUF                      |               15 |             40 |         2.67 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[5][8][3]_i_1_n_0              | rst_IBUF                      |               27 |             40 |         1.48 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[5][9][3]_i_1_n_0              | rst_IBUF                      |               18 |             40 |         2.22 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[0][13][3]_i_1_n_0             | rst_IBUF                      |               16 |             40 |         2.50 |
+|  clk_IBUF_BUFG       | tetris/stacking_array[7][15][3]_i_1_n_0                    | rst_IBUF                      |               23 |             64 |         2.78 |
+|  clk_IBUF_BUFG       |                                                            | rst_IBUF                      |               28 |             74 |         2.64 |
+|  clk_IBUF_BUFG       | keyboard/key_de/op/E[0]                                    | rst_IBUF                      |               87 |            256 |         2.94 |
+|  clk_IBUF_BUFG       | tetris/stacking_array_hidden[14][7][3]_i_1_n_0             | rst_IBUF                      |              312 |            768 |         2.46 |
+|  clk_IBUF_BUFG       | tetris/stacking_array[7][17][3]_i_1_n_0                    | rst_IBUF                      |              612 |           1884 |         3.08 |
++----------------------+------------------------------------------------------------+-------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Dec 28 19:41:30 2022
+# Process ID: 14216
+# Current directory: C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8576 C:\Users\a5658\Desktop\logic_design_lab\Final_Project_Tetris\Final_Project_Tetris.xpr
+# Log file: C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/vivado.log
+# Journal file: C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/a5658/Desktop/清大/邏輯設計實驗/Keyboard Sample Code/Keyboard Sample Code/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 981.828 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 28 20:32:58 2022...

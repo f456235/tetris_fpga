@@ -1,0 +1,2578 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 20384
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Dec 23 12:58:29 CST 2022
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	a5658
+User home directory: C:/Users/a5658
+User working directory: C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/a5658/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/a5658/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/a5658/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/vivado.log
+Vivado journal file location: 	C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/vivado.jou
+Engine tmp dir: 	C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/.Xil/Vivado-20384-LAPTOP-RR8EV2AV
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	133 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,013 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\a5658\Desktop\logic_design_lab\Final_Project_Tetris\Final_Project_Tetris.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 85 MB (+86606kb) [00:00:10]
+// [Engine Memory]: 1,013 MB (+910645kb) [00:00:10]
+// [GUI Memory]: 103 MB (+14916kb) [00:00:10]
+// [GUI Memory]: 114 MB (+5972kb) [00:00:11]
+// [GUI Memory]: 121 MB (+1128kb) [00:00:12]
+// WARNING: HEventQueue.dispatchEvent() is taking  2778 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 59 MB. Current time: 12/23/22, 12:58:29 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1005.355 ; gain = 0.000 
+// Project name: Final_Project_Tetris; location: C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_Tetris (text_Tetris.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_Tetris (text_Tetris.v), T : Tetris (Tetris.v)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_Tetris (text_Tetris.v), T : Tetris (Tetris.v), ctb : xil_defaultlib.check_touch_block]", 3, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 130 MB (+2978kb) [00:00:21]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_Tetris (text_Tetris.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_Tetris (text_Tetris.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// Elapsed time: 109 seconds
+selectCodeEditor("Tetris.v", 212, 425); // bP
+selectCodeEditor("Tetris.v", 260, 281); // bP
+selectCodeEditor("Tetris.v", 236, 301); // bP
+selectCodeEditor("Tetris.v", 520, 215); // bP
+selectCodeEditor("Tetris.v", 503, 292); // bP
+selectCodeEditor("Tetris.v", 415, 278); // bP
+selectCodeEditor("Tetris.v", 288, 299); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Tetris.v", 282, 160); // bP
+typeControlKey(null, null, 'z');
+// Elapsed time: 15 seconds
+selectCodeEditor("Tetris.v", 194, 184); // bP
+selectCodeEditor("Tetris.v", 247, 347); // bP
+selectCodeEditor("Tetris.v", 227, 441); // bP
+selectCodeEditor("Tetris.v", 322, 387); // bP
+selectCodeEditor("Tetris.v", 243, 369); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Tetris.v", 266, 278); // bP
+selectCodeEditor("Tetris.v", 303, 330); // bP
+selectCodeEditor("Tetris.v", 246, 440); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("Tetris.v", 272, 322); // bP
+selectCodeEditor("Tetris.v", 297, 321); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("Tetris.v", 161, 495); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 139, 587); // bP
+selectCodeEditor("Tetris.v", 184, 517); // bP
+selectCodeEditor("Tetris.v", 321, 304); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 138 MB (+1722kb) [00:04:03]
+// Elapsed time: 19 seconds
+selectCodeEditor("Tetris.v", 161, 324); // bP
+selectCodeEditor("Tetris.v", 55, 198); // bP
+// Elapsed time: 236 seconds
+selectCodeEditor("Tetris.v", 305, 200); // bP
+// Elapsed time: 164 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 97 seconds
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+// Elapsed time: 22 seconds
+selectCodeEditor("Tetris.v", 338, 521); // bP
+// Elapsed time: 60 seconds
+selectCodeEditor("Tetris.v", 204, 468); // bP
+// Elapsed time: 52 seconds
+selectCodeEditor("Tetris.v", 116, 493); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("Tetris.v", 100, 510); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 184, 634); // bP
+selectCodeEditor("Tetris.v", 249, 343); // bP
+selectCodeEditor("Tetris.v", 110, 77); // bP
+selectCodeEditor("Tetris.v", 79, 77); // bP
+selectCodeEditor("Tetris.v", 162, 95); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("Tetris.v", 158, 273); // bP
+// Elapsed time: 25 seconds
+selectCodeEditor("Tetris.v", 198, 254); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 158, 364); // bP
+// Elapsed time: 119 seconds
+selectCodeEditor("Tetris.v", 198, 396); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 107, 514); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 378, 518); // bP
+selectCodeEditor("Tetris.v", 219, 516); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 353, 520); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 509, 512); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("Tetris.v", 112, 517); // bP
+selectCodeEditor("Tetris.v", 559, 520); // bP
+// Elapsed time: 40 seconds
+selectCodeEditor("Tetris.v", 197, 456); // bP
+selectCodeEditor("Tetris.v", 279, 441); // bP
+// Elapsed time: 23 seconds
+selectCodeEditor("Tetris.v", 218, 368); // bP
+selectCodeEditor("Tetris.v", 343, 424); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 173, 400); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 236, 394); // bP
+selectCodeEditor("Tetris.v", 484, 421); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("Tetris.v", 140, 421, true, false, false, false, false); // bP - Shift Key
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 140, 419); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 526, 423); // bP
+selectCodeEditor("Tetris.v", 392, 420); // bP
+selectCodeEditor("Tetris.v", 259, 419); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 114, 447); // bP
+selectCodeEditor("Tetris.v", 182, 398); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("Tetris.v", 764, 420); // bP
+// Elapsed time: 50 seconds
+selectCodeEditor("Tetris.v", 166, 448); // bP
+// Elapsed time: 36 seconds
+selectCodeEditor("Tetris.v", 59, 321); // bP
+// Elapsed time: 33 seconds
+selectCodeEditor("Tetris.v", 211, 304); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 153, 390); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 37 seconds
+selectCodeEditor("Tetris.v", 115, 395); // bP
+selectCodeEditor("Tetris.v", 391, 388); // bP
+selectCodeEditor("Tetris.v", 253, 416); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("Tetris.v", 97, 465); // bP
+selectCodeEditor("Tetris.v", 210, 468); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("Tetris.v", 170, 470); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Tetris.v", 305, 282); // bP
+selectCodeEditor("Tetris.v", 277, 275); // bP
+selectCodeEditor("Tetris.v", 282, 278); // bP
+selectCodeEditor("Tetris.v", 271, 274); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 300, 274); // bP
+selectCodeEditor("Tetris.v", 271, 278); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 377, 276); // bP
+// Elapsed time: 20 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Tetris.v", 100, 315); // bP
+// Elapsed time: 73 seconds
+selectCodeEditor("Tetris.v", 264, 325); // bP
+selectCodeEditor("Tetris.v", 145, 349); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 282, 349); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 300, 349); // bP
+selectCodeEditor("Tetris.v", 127, 348); // bP
+selectCodeEditor("Tetris.v", 364, 317); // bP
+selectCodeEditor("Tetris.v", 345, 371); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 98, 351); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 140, 348); // bP
+selectCodeEditor("Tetris.v", 98, 393); // bP
+selectCodeEditor("Tetris.v", 264, 464); // bP
+selectCodeEditor("Tetris.v", 128, 234); // bP
+selectCodeEditor("Tetris.v", 343, 468); // bP
+// Elapsed time: 34 seconds
+selectCodeEditor("Tetris.v", 168, 466); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 136, 500); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 102, 517); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 265, 489); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 338, 474); // bP
+selectCodeEditor("Tetris.v", 327, 493); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 332, 501); // bP
+selectCodeEditor("Tetris.v", 338, 489); // bP
+selectCodeEditor("Tetris.v", 350, 517); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("Tetris.v", 346, 530); // bP
+selectCodeEditor("Tetris.v", 339, 393); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 77 MB. Current time: 12/23/22, 1:28:33 PM CST
+// Elapsed time: 179 seconds
+selectCodeEditor("Tetris.v", 274, 351); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 204, 349); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 295, 345); // bP
+selectCodeEditor("Tetris.v", 203, 350); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 239, 373); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 166 seconds
+selectCodeEditor("Tetris.v", 1475, 121); // bP
+selectCodeEditor("Tetris.v", 824, 155); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("Tetris.v", 330, 369); // bP
+selectCodeEditor("Tetris.v", 172, 463); // bP
+selectCodeEditor("Tetris.v", 90, 400); // bP
+selectCodeEditor("Tetris.v", 137, 357); // bP
+selectCodeEditor("Tetris.v", 236, 321); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 144, 368); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 275, 401); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("Tetris.v", 106, 398); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 253, 337); // bP
+selectCodeEditor("Tetris.v", 195, 295); // bP
+selectCodeEditor("Tetris.v", 367, 500); // bP
+selectCodeEditor("Tetris.v", 388, 224); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 136 seconds
+selectCodeEditor("Tetris.v", 109, 203); // bP
+selectCodeEditor("Tetris.v", 204, 205); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 203, 417); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 147, 371); // bP
+selectCodeEditor("Tetris.v", 180, 370); // bP
+selectCodeEditor("Tetris.v", 236, 374); // bP
+selectCodeEditor("Tetris.v", 226, 371); // bP
+selectCodeEditor("Tetris.v", 200, 373); // bP
+selectCodeEditor("Tetris.v", 355, 424); // bP
+// Elapsed time: 89 seconds
+selectCodeEditor("Tetris.v", 253, 395); // bP
+selectCodeEditor("Tetris.v", 315, 232); // bP
+selectCodeEditor("Tetris.v", 239, 372); // bP
+selectCodeEditor("Tetris.v", 250, 315); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("Tetris.v", 218, 378); // bP
+selectCodeEditor("Tetris.v", 207, 442); // bP
+selectCodeEditor("Tetris.v", 142, 305); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 54 seconds
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 24 seconds
+selectCodeEditor("Tetris.v", 414, 444); // bP
+selectCodeEditor("Tetris.v", 426, 448); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 302, 443); // bP
+selectCodeEditor("Tetris.v", 443, 445); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 832, 443); // bP
+selectCodeEditor("Tetris.v", 973, 450); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 1106, 447); // bP
+selectCodeEditor("Tetris.v", 1250, 446); // bP
+selectCodeEditor("Tetris.v", 1277, 437); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("Tetris.v", 174, 394); // bP
+selectCodeEditor("Tetris.v", 206, 323); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 141, 416); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 144 seconds
+selectCodeEditor("Tetris.v", 313, 472); // bP
+selectCodeEditor("Tetris.v", 312, 231); // bP
+selectCodeEditor("Tetris.v", 573, 228); // bP
+selectCodeEditor("Tetris.v", 861, 231); // bP
+selectCodeEditor("Tetris.v", 1119, 231); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Tetris.v", 299, 397); // bP
+selectCodeEditor("Tetris.v", 369, 397); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 589, 398); // bP
+selectCodeEditor("Tetris.v", 873, 397); // bP
+selectCodeEditor("Tetris.v", 1133, 399); // bP
+selectCodeEditor("Tetris.v", 221, 419); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 157, 493); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 312, 493); // bP
+selectCodeEditor("Tetris.v", 386, 494); // bP
+selectCodeEditor("Tetris.v", 587, 493); // bP
+selectCodeEditor("Tetris.v", 834, 496); // bP
+selectCodeEditor("Tetris.v", 1175, 493); // bP
+selectCodeEditor("Tetris.v", 182, 585); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 40 seconds
+selectCodeEditor("Tetris.v", 1135, 469); // bP
+selectCodeEditor("Tetris.v", 1176, 473); // bP
+// Elapsed time: 49 seconds
+selectCodeEditor("Tetris.v", 439, 489); // bP
+selectCodeEditor("Tetris.v", 455, 493); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("Tetris.v", 1243, 446); // bP
+selectCodeEditor("Tetris.v", 453, 536); // bP
+selectCodeEditor("Tetris.v", 960, 541); // bP
+selectCodeEditor("Tetris.v", 205, 498); // bP
+selectCodeEditor("Tetris.v", 205, 252); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 151, 511); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 26 seconds
+selectCodeEditor("Tetris.v", 905, 561); // bP
+selectCodeEditor("Tetris.v", 213, 402); // bP
+// Elapsed time: 31 seconds
+selectCodeEditor("Tetris.v", 80, 519); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("Tetris.v", 223, 426); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 153, 507); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("Tetris.v", 917, 372); // bP
+selectCodeEditor("Tetris.v", 179, 461); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 372, 542); // bP
+selectCodeEditor("Tetris.v", 933, 540); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Tetris.v", 248, 256); // bP
+// Elapsed time: 26 seconds
+selectCodeEditor("Tetris.v", 235, 267); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 46 seconds
+selectCodeEditor("Tetris.v", 233, 273); // bP
+selectCodeEditor("Tetris.v", 312, 441); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("Tetris.v", 221, 271); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("Tetris.v", 303, 257); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("Tetris.v", 171, 276, true, false, false, false, false); // bP - Shift Key
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+// Elapsed time: 23 seconds
+selectCodeEditor("Tetris.v", 362, 227); // bP
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 84, 565); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 218, 275); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 147, 534); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 30 seconds
+selectCodeEditor("Tetris.v", 180, 562); // bP
+// Elapsed time: 53 seconds
+selectCodeEditor("Tetris.v", 54, 371); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 135, 530); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 213, 444); // bP
+selectCodeEditor("Tetris.v", 169, 515); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Tetris.v", 211, 427); // bP
+selectCodeEditor("Tetris.v", 167, 416); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 234, 353); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("Tetris.v", 373, 372); // bP
+selectCodeEditor("Tetris.v", 237, 493); // bP
+selectCodeEditor("Tetris.v", 367, 373); // bP
+selectCodeEditor("Tetris.v", 371, 367); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 130, 386); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 258, 393); // bP
+selectCodeEditor("Tetris.v", 410, 390); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 258, 420); // bP
+selectCodeEditor("Tetris.v", 367, 422); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 257, 447); // bP
+// Elapsed time: 42 seconds
+selectCodeEditor("Tetris.v", 283, 343); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("Tetris.v", 208, 392); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 376, 373); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 399, 368); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 215, 398); // bP
+selectCodeEditor("Tetris.v", 220, 395); // bP
+selectCodeEditor("Tetris.v", 260, 392); // bP
+selectCodeEditor("Tetris.v", 280, 395); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 247, 425); // bP
+selectCodeEditor("Tetris.v", 252, 398); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 219, 419); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 215, 446); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 218, 468); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 307, 467); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 291, 449); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 309, 422); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 308, 395); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 233, 426); // bP
+selectCodeEditor("Tetris.v", 264, 389); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 169, 493); // bP
+selectCodeEditor("Tetris.v", 383, 151); // bP
+selectCodeEditor("Tetris.v", 410, 179); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 419, 252); // bP
+selectCodeEditor("Tetris.v", 502, 253); // bP
+selectCodeEditor("Tetris.v", 385, 273); // bP
+selectCodeEditor("Tetris.v", 419, 275); // bP
+selectCodeEditor("Tetris.v", 403, 301); // bP
+selectCodeEditor("Tetris.v", 518, 331); // bP
+selectCodeEditor("Tetris.v", 423, 327); // bP
+selectCodeEditor("Tetris.v", 178, 425); // bP
+selectCodeEditor("Tetris.v", 367, 230); // bP
+selectCodeEditor("Tetris.v", 367, 230); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 174, 425); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 379, 419); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 157, 396); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 301, 419); // bP
+selectCodeEditor("Tetris.v", 387, 498); // bP
+selectCodeEditor("Tetris.v", 423, 327); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 166, 513); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 406, 513); // bP
+selectCodeEditor("Tetris.v", 392, 512); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 69 MB. Current time: 12/23/22, 1:58:33 PM CST
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 415, 515); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 391, 482); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 374, 512); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Tetris.v", 200, 540); // bP
+selectCodeEditor("Tetris.v", 183, 374); // bP
+selectCodeEditor("Tetris.v", 378, 202); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 154, 393); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 388, 445); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 138, 468); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 298, 462); // bP
+selectCodeEditor("Tetris.v", 435, 470); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 427, 306); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 150, 489); // bP
+selectCodeEditor("Tetris.v", 414, 301); // bP
+selectCodeEditor("Tetris.v", 120, 255); // bP
+selectCodeEditor("Tetris.v", 421, 301); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 127, 486); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 394, 493); // bP
+selectCodeEditor("Tetris.v", 517, 526); // bP
+selectCodeEditor("Tetris.v", 482, 544); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 500, 544); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 374, 564); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Tetris.v", 213, 446); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 365, 64); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 177, 281); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("Tetris.v", 360, 71); // bP
+selectCodeEditor("Tetris.v", 359, 58); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 191, 295); // bP
+selectCodeEditor("Tetris.v", 191, 298); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 304, 352); // bP
+selectCodeEditor("Tetris.v", 288, 376); // bP
+selectCodeEditor("Tetris.v", 411, 156); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 384, 372); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 390, 402); // bP
+selectCodeEditor("Tetris.v", 499, 347); // bP
+selectCodeEditor("Tetris.v", 433, 422); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 409, 420); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 374, 443); // bP
+selectCodeEditor("Tetris.v", 364, 470); // bP
+selectCodeEditor("Tetris.v", 357, 470); // bP
+selectCodeEditor("Tetris.v", 286, 421); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("Tetris.v", 357, 249); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 224, 475); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 380, 299); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 170, 540); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 246, 563); // bP
+selectCodeEditor("Tetris.v", 403, 513); // bP
+selectCodeEditor("Tetris.v", 405, 562); // bP
+selectCodeEditor("Tetris.v", 397, 348); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 152, 587); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 392, 590); // bP
+selectCodeEditor("Tetris.v", 560, 393); // bP
+selectCodeEditor("Tetris.v", 494, 399); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 400, 399); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 350, 415); // bP
+selectCodeEditor("Tetris.v", 412, 415); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 356, 445); // bP
+selectCodeEditor("Tetris.v", 228, 539); // bP
+selectCodeEditor("Tetris.v", 111, 249); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 179, 371); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("Tetris.v", 365, 414); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 148, 457); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 289, 472); // bP
+selectCodeEditor("Tetris.v", 238, 573); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 402, 200); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 155, 287); // bP
+selectCodeEditor("Tetris.v", 149, 302); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 404, 301); // bP
+selectCodeEditor("Tetris.v", 530, 247); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 414, 422); // bP
+selectCodeEditor("Tetris.v", 114, 372); // bP
+selectCodeEditor("Tetris.v", 115, 372); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 406, 491); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 389, 440); // bP
+selectCodeEditor("Tetris.v", 147, 453); // bP
+// Elapsed time: 31 seconds
+selectCodeEditor("Tetris.v", 413, 468); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 424, 484); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 359, 516); // bP
+selectCodeEditor("Tetris.v", 231, 470); // bP
+selectCodeEditor("Tetris.v", 379, 323); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 152, 533); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("Tetris.v", 359, 446); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 173, 416); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 288, 445); // bP
+selectCodeEditor("Tetris.v", 368, 440); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 172, 425); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 243, 449); // bP
+selectCodeEditor("Tetris.v", 387, 510); // bP
+// Elapsed time: 23 seconds
+selectCodeEditor("Tetris.v", 415, 324); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 393, 516); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 380, 538); // bP
+selectCodeEditor("Tetris.v", 393, 558); // bP
+selectCodeEditor("Tetris.v", 405, 530); // bP
+selectCodeEditor("Tetris.v", 407, 536); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 373, 520); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 357, 544); // bP
+selectCodeEditor("Tetris.v", 422, 506); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 355, 544); // bP
+selectCodeEditor("Tetris.v", 280, 545); // bP
+selectCodeEditor("Tetris.v", 253, 517); // bP
+selectCodeEditor("Tetris.v", 510, 324); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 62 seconds
+selectCodeEditor("Tetris.v", 385, 426); // bP
+selectCodeEditor("Tetris.v", 296, 471); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+// Elapsed time: 41 seconds
+selectCodeEditor("Tetris.v", 237, 228); // bP
+selectCodeEditor("Tetris.v", 122, 493); // bP
+// Elapsed time: 43 seconds
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("Tetris.v", 217, 53); // bP
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 243, 157); // bP
+selectCodeEditor("Tetris.v", 118, 226); // bP
+selectCodeEditor("Tetris.v", 141, 185); // bP
+selectCodeEditor("Tetris.v", 280, 180); // bP
+selectCodeEditor("Tetris.v", 84, 182); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 162, 102); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 201, 259); // bP
+selectCodeEditor("Tetris.v", 147, 271); // bP
+selectCodeEditor("Tetris.v", 165, 155); // bP
+selectCodeEditor("Tetris.v", 278, 229); // bP
+selectCodeEditor("Tetris.v", 307, 228); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 78, 326); // bP
+selectCodeEditor("Tetris.v", 195, 326); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 112, 295); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 240, 303); // bP
+selectCodeEditor("Tetris.v", 406, 302); // bP
+selectCodeEditor("Tetris.v", 247, 300); // bP
+selectCodeEditor("Tetris.v", 418, 307); // bP
+selectCodeEditor("Tetris.v", 244, 296); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("Tetris.v", 180, 254); // bP
+selectCodeEditor("Tetris.v", 267, 295); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("Tetris.v", 501, 303); // bP
+selectCodeEditor("Tetris.v", 324, 299); // bP
+selectCodeEditor("Tetris.v", 544, 300); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 583, 298); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 334, 326); // bP
+selectCodeEditor("Tetris.v", 509, 329); // bP
+selectCodeEditor("Tetris.v", 603, 325); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 336, 349); // bP
+selectCodeEditor("Tetris.v", 509, 348); // bP
+selectCodeEditor("Tetris.v", 562, 341); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 336, 370); // bP
+selectCodeEditor("Tetris.v", 512, 370); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectCodeEditor("Tetris.v", 463, 297); // bP
+selectCodeEditor("Tetris.v", 479, 303); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+selectCodeEditor("Tetris.v", 101, 445); // bP
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 2); // m
+selectCodeEditor("text_Tetris.v", 683, 232); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+// Elapsed time: 51 seconds
+selectCodeEditor("Tetris.v", 212, 367); // bP
+selectCodeEditor("Tetris.v", 183, 347); // bP
+selectCodeEditor("Tetris.v", 265, 469); // bP
+selectCodeEditor("Tetris.v", 245, 443); // bP
+selectCodeEditor("Tetris.v", 202, 494); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 197, 371); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 229, 374); // bP
+selectCodeEditor("Tetris.v", 310, 375); // bP
+// Elapsed time: 55 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Tetris.v", 391, 364); // bP
+// Elapsed time: 45 seconds
+typeControlKey(null, null, 'z');
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+// Elapsed time: 15 seconds
+selectCodeEditor("Tetris.v", 244, 450); // bP
+selectCodeEditor("Tetris.v", 167, 566); // bP
+selectCodeEditor("Tetris.v", 358, 419); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 199, 327); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+// Elapsed time: 38 seconds
+selectCodeEditor("Tetris.v", 183, 399); // bP
+selectCodeEditor("Tetris.v", 341, 365); // bP
+selectCodeEditor("Tetris.v", 244, 344); // bP
+selectCodeEditor("Tetris.v", 267, 255); // bP
+selectCodeEditor("Tetris.v", 245, 250); // bP
+selectCodeEditor("Tetris.v", 162, 463); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("Tetris.v", 254, 578); // bP
+selectCodeEditor("Tetris.v", 28, 155); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 181, 321); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+// Elapsed time: 10 seconds
+selectCodeEditor("Tetris.v", 196, 324); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 2); // m
+selectCodeEditor("text_Tetris.v", 253, 201); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'v'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+selectCodeEditor("Tetris.v", 103, 322); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 2); // m
+selectCodeEditor("text_Tetris.v", 64, 229); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'v'); // bP
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 2); // m
+selectCodeEditor("text_Tetris.v", 155, 226); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 2); // m
+selectCodeEditor("text_Tetris.v", 686, 246); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'v'); // bP
+selectCodeEditor("text_Tetris.v", 820, 253); // bP
+selectCodeEditor("text_Tetris.v", 264, 430); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("text_Tetris.v", 118, 465); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+// Elapsed time: 24 seconds
+selectCodeEditor("Tetris.v", 222, 363); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 2); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 69 MB. Current time: 12/23/22, 2:28:33 PM CST
+// Elapsed time: 1860 seconds
+selectCodeEditor("text_Tetris.v", 272, 270); // bP
+selectCodeEditor("text_Tetris.v", 303, 226); // bP
+// Elapsed time: 88 seconds
+selectCodeEditor("text_Tetris.v", 168, 492); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("text_Tetris.v", 145, 540); // bP
+// Elapsed time: 45 seconds
+selectCodeEditor("text_Tetris.v", 305, 491); // bP
+// Elapsed time: 54 seconds
+selectCodeEditor("text_Tetris.v", 217, 451); // bP
+selectCodeEditor("text_Tetris.v", 185, 569); // bP
+selectCodeEditor("text_Tetris.v", 229, 546); // bP
+selectCodeEditor("text_Tetris.v", 699, 155); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'c'); // bP
+selectCodeEditor("text_Tetris.v", 178, 545); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'v'); // bP
+// Elapsed time: 28 seconds
+selectCodeEditor("text_Tetris.v", 476, 539); // bP
+selectCodeEditor("text_Tetris.v", 386, 542); // bP
+// Elapsed time: 20 seconds
+selectCodeEditor("text_Tetris.v", 177, 539); // bP
+selectCodeEditor("text_Tetris.v", 400, 541); // bP
+selectCodeEditor("text_Tetris.v", 400, 545); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'c'); // bP
+selectCodeEditor("text_Tetris.v", 392, 544); // bP
+selectCodeEditor("text_Tetris.v", 418, 535); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'v'); // bP
+selectCodeEditor("text_Tetris.v", 630, 540); // bP
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "text_Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'v'); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("text_Tetris.v", 163, 547); // bP
+selectCodeEditor("text_Tetris.v", 104, 493); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("text_Tetris.v", 104, 544); // bP
+selectCodeEditor("text_Tetris.v", 105, 345); // bP
+// Elapsed time: 20 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false, false, false, false, true, false); // u - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_SETTINGS, "Simulation Settings..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// d (cr): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2389 ms.
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, General]", 0, false); // B
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 70 MB. Current time: 12/23/22, 2:58:34 PM CST
+// Elapsed time: 619 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_Tetris' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot test_Tetris_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_Tetris_behav -key {Behavioral:sim_1:Functional:test_Tetris} -tclbatch {test_Tetris.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source test_Tetris.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 77 MB. Current time: 12/23/22, 3:07:38 PM CST
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_Tetris_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1005.355 ; gain = 0.000 
+// 'd' command handler elapsed time: 9 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 105 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+// Elapsed time: 12 seconds
+selectCodeEditor("text_Tetris.v", 144, 178); // bP
+selectCodeEditor("text_Tetris.v", 350, 230); // bP
+selectCodeEditor("text_Tetris.v", 269, 221); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("text_Tetris.v", 646, 232); // bP
+selectCodeEditor("text_Tetris.v", 530, 327); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectCodeEditor("text_Tetris.v", 265, 231); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("text_Tetris.v", 114, 373); // bP
+selectCodeEditor("text_Tetris.v", 126, 391); // bP
+selectCodeEditor("text_Tetris.v", 153, 74); // bP
+selectCodeEditor("text_Tetris.v", 312, 404); // bP
+selectCodeEditor("text_Tetris.v", 374, 323); // bP
+// Elapsed time: 16 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("text_Tetris.v", 148, 321); // bP
+selectCodeEditor("text_Tetris.v", 129, 315); // bP
+selectCodeEditor("text_Tetris.v", 139, 320); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_Tetris' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_Tetris_behav -key {Behavioral:sim_1:Functional:test_Tetris} -tclbatch {test_Tetris.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// Tcl Message: source test_Tetris.tcl 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 79 MB. Current time: 12/23/22, 3:11:30 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_Tetris_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1005.355 ; gain = 0.000 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 80 MB. Current time: 12/23/22, 3:16:05 PM CST
+// Elapsed time: 307 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 0); // m
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 23 seconds
+selectCodeEditor("Tetris.v", 297, 220); // bP
+selectCodeEditor("Tetris.v", 292, 252); // bP
+selectCodeEditor("Tetris.v", 293, 275); // bP
+selectCodeEditor("Tetris.v", 299, 304); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+selectCodeEditor("text_Tetris.v", 830, 467); // bP
+selectCodeEditor("text_Tetris.v", 356, 474); // bP
+selectCodeEditor("text_Tetris.v", 1076, 476); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("text_Tetris.v", 105, 368); // bP
+// Elapsed time: 12 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_Tetris' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log" Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_Tetris_behav -key {Behavioral:sim_1:Functional:test_Tetris} -tclbatch {test_Tetris.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 82 MB. Current time: 12/23/22, 3:18:20 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source test_Tetris.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_Tetris_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1005.355 ; gain = 0.000 
+// 'd' command handler elapsed time: 9 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 82 MB. Current time: 12/23/22, 3:18:33 PM CST
+// Elapsed time: 16 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:38 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:18:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 102 MB. Current time: 12/23/22, 3:18:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 91 MB. Current time: 12/23/22, 3:18:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 99 MB. Current time: 12/23/22, 3:18:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 97 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 94 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 94 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 90 MB. Current time: 12/23/22, 3:18:53 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 96 MB. Current time: 12/23/22, 3:18:53 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:18:54 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:54 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:54 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 92 MB. Current time: 12/23/22, 3:18:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 88 MB. Current time: 12/23/22, 3:18:57 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:57 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 94 MB. Current time: 12/23/22, 3:18:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:18:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:18:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:01 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 96 MB. Current time: 12/23/22, 3:19:02 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:02 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 92 MB. Current time: 12/23/22, 3:19:02 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 31 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i[31:0]]", 6); // a
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:10 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i[31:0]]", 6); // a
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, stacking_array_out[799:0]]", 5); // a
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:21 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:21 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 86 MB. Current time: 12/23/22, 3:19:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:23 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:23 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:23 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 86 MB. Current time: 12/23/22, 3:19:23 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:23 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 86 MB. Current time: 12/23/22, 3:19:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 88 MB. Current time: 12/23/22, 3:19:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 88 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 88 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: -417 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 88 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 88 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 26 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:19:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:30 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 12 seconds
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, stacking_array_out[799:0]]", 5); // a
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 85 MB. Current time: 12/23/22, 3:19:32 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 3"); // w
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 1); // m
+// Elapsed time: 13 seconds
+selectCodeEditor("Tetris.v", 226, 448); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 209, 349); // bP
+selectCodeEditor("Tetris.v", 239, 370); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 178, 203); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectCodeEditor("Tetris.v", 111, 227); // bP
+selectCodeEditor("Tetris.v", 183, 232); // bP
+selectCodeEditor("Tetris.v", 112, 231); // bP
+selectCodeEditor("Tetris.v", 241, 231); // bP
+selectCodeEditor("Tetris.v", 247, 231); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("Tetris.v", 54, 373); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("Tetris.v", 313, 326); // bP
+selectCodeEditor("Tetris.v", 313, 326, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Tetris.v", 376, 326); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_Tetris' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_Tetris_behav -key {Behavioral:sim_1:Functional:test_Tetris} -tclbatch {test_Tetris.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source test_Tetris.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 12/23/22, 3:21:25 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_Tetris_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1540.277 ; gain = 0.000 
+// 'd' command handler elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+selectCodeEditor("text_Tetris.v", 124, 181); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_Tetris' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log" Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_Tetris_behav -key {Behavioral:sim_1:Functional:test_Tetris} -tclbatch {test_Tetris.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: source test_Tetris.tcl 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 90 MB. Current time: 12/23/22, 3:22:11 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_Tetris_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1540.277 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 5", 2); // m
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 148 MB (+3339kb) [02:24:15]
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("Tetris.v", 229, 542); // bP
+selectCodeEditor("Tetris.v", 127, 535); // bP
+selectCodeEditor("Tetris.v", 207, 543); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 193, 206); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_Tetris' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log" Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_Tetris_behav -key {Behavioral:sim_1:Functional:test_Tetris} -tclbatch {test_Tetris.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 94 MB. Current time: 12/23/22, 3:22:59 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source test_Tetris.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_Tetris_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1540.277 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 6", 2); // m
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 96 MB. Current time: 12/23/22, 3:23:03 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 6", 2); // m
+applyEnter(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "10"); // d
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 10 us 
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 100 MB. Current time: 12/23/22, 3:23:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+setText(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "10"); // d
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1051, 811); // n
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 103 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 107 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 116 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 105 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 110 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 104 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 97 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 36 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 95 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 100 MB. Current time: 12/23/22, 3:23:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 6", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Tetris.v", 0); // m
+selectCodeEditor("Tetris.v", 212, 230); // bP
+typeControlKey((HResource) null, "Tetris.v", 'c'); // bP
+selectCodeEditor("Tetris.v", 233, 229); // bP
+selectCodeEditor("Tetris.v", 203, 345); // bP
+typeControlKey((HResource) null, "Tetris.v", 'v'); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 6", 2); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_Tetris' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log" Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_Tetris_behav -key {Behavioral:sim_1:Functional:test_Tetris} -tclbatch {test_Tetris.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 96 MB. Current time: 12/23/22, 3:24:13 PM CST
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source test_Tetris.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_Tetris_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1540.277 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 7", 2); // m
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+applyEnter(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "10"); // d
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 10 us 
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:30 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:30 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:30 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:30 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:30 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 110 MB. Current time: 12/23/22, 3:24:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 98 MB. Current time: 12/23/22, 3:24:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 30 seconds
+setText(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "10"); // d
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+selectCodeEditor("text_Tetris.v", 302, 298); // bP
+selectCodeEditor("text_Tetris.v", 257, 276); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("text_Tetris.v", 611, 151); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'c'); // bP
+selectCodeEditor("text_Tetris.v", 120, 441); // bP
+typeControlKey((HResource) null, "text_Tetris.v", 'v'); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_Tetris' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log" Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_Tetris_behav -key {Behavioral:sim_1:Functional:test_Tetris} -tclbatch {test_Tetris.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 99 MB. Current time: 12/23/22, 3:25:33 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source test_Tetris.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_Tetris_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1540.277 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 11 seconds
+selectCodeEditor("text_Tetris.v", 120, 114); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// c (cr): Save Simulation Sources: addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: DG_GRAPH_STALE
+// bz (cr):  Close : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+dismissDialog("Save Simulation Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_Tetris' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log" Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ca4805c68dfb4045abf4c74c62baab50 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Tetris_behav xil_defaultlib.test_Tetris xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_Tetris_behav -key {Behavioral:sim_1:Functional:test_Tetris} -tclbatch {test_Tetris.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 101 MB. Current time: 12/23/22, 3:26:00 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source test_Tetris.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_Tetris_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1540.277 ; gain = 0.000 
+// 'd' command handler elapsed time: 12 seconds
+dismissDialog("Run Simulation"); // e
+// [GUI Memory]: 157 MB (+1255kb) [02:27:44]
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "text_Tetris.v", 1); // m
+selectCodeEditor("text_Tetris.v", 125, 111); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE

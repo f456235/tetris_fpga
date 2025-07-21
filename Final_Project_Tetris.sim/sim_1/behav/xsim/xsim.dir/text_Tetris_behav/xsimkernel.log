@@ -1,0 +1,7 @@
+Running: xsim.dir/text_Tetris_behav/xsimk.exe -simmode gui -wdb text_Tetris_behav.wdb -simrunnum 0 -socket 51334
+Design successfully loaded
+Design Loading Memory Usage: 6752 KB (Peak: 6752 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7352 KB (Peak: 7352 KB)
+Simulation CPU Usage: 30 ms

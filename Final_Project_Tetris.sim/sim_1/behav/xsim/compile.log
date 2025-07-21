@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.srcs/sources_1/new/Tetris.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tetris
+WARNING: [VRFC 10-3248] data object 'posxm1' is already declared [C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.srcs/sources_1/new/Tetris.v:49]
+WARNING: [VRFC 10-3703] second declaration of 'posxm1' ignored [C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.srcs/sources_1/new/Tetris.v:49]
+WARNING: [VRFC 10-3248] data object 'posym1' is already declared [C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.srcs/sources_1/new/Tetris.v:50]
+WARNING: [VRFC 10-3703] second declaration of 'posym1' ignored [C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.srcs/sources_1/new/Tetris.v:50]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.srcs/sources_1/new/next_block_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Many_To_One_LFSR
+INFO: [VRFC 10-311] analyzing module next_block_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.srcs/sources_1/new/text_Tetris.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_Tetris

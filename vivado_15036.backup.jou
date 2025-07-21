@@ -1,0 +1,147 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Dec 29 17:04:35 2022
+# Process ID: 15036
+# Current directory: C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7844 C:\Users\a5658\Desktop\logic_design_lab\Final_Project_Tetris\Final_Project_Tetris.xpr
+# Log file: C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/vivado.log
+# Journal file: C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_Tetris [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+open_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+refresh_design
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+close_sim
+launch_simulation
+source test_Tetris.tcl
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_sim
+close_design
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/a5658/Desktop/logic_design_lab/Final_Project_Tetris/Final_Project_Tetris.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

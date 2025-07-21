@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Final_Project_Tetris.srcs/sources_1/new/Tetris.v" \
+"../../../../Final_Project_Tetris.srcs/sources_1/new/next_block_generator.v" \
+"../../../../Final_Project_Tetris.srcs/sources_1/new/text_Tetris.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
